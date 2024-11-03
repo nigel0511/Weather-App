@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #eff3fc;
+}
+
+@media only screen and (max-width: 599px) {
+  #container {
+    width: 330px;
+  }
+
+  #future-forecast {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #container {
+    width: 400px;
+  }
+
+  #future-forecast {
+    font-size: medium;
+  }
+}
